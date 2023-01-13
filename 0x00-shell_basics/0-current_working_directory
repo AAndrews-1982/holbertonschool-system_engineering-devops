@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -a
+1-listit
+2-listit
