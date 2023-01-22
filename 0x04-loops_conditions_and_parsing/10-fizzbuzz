@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#Bash script that displays numbers from 1 to 100
+#Script that displays "FizzBuzz" when number is multiple of 3 and 5
+#Script that displays "Fizz" when number is multiple of 3
+#Script that displays "Buzz" when number is multiple of 5
+j=1
+while [ "$j" -le 100 ]
+do
+fizz=$((j%3))
+buzz=$((j%5))
+if [ "$fizz" = 0 ] && [ "$buzz" = 0 ]
+then
+echo "FizzBuzz"
+elif [ "$fizz = 0 ]
+then
+echo "Fizz"
+elif [ "$buzz" = 0 ]
+then
+echo "Buzz"
+else
+echo "$j"
+fi
+((j++))
+done
