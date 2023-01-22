@@ -1,2 +1,2 @@
 #!/bin/ash
-echo "$PATH" | tr ":" "\n" | wc -1
+$find . -type d | wc -l
