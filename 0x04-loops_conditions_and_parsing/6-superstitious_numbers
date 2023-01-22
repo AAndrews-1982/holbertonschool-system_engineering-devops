@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#Script displays numbers 1-20 and
+#displays 4 then Bad Luck in Chinese language for the 4th loop
+#displays 9 then Bad Luck in Japenese language for the 9th loop
+#displays 17 then Bad Luck in Italian language for the 17th loop
+j=0
+while [ $j -lt 20 ]
+do
+echo $((j+1))
+case $j in
+3)
+echo "bad luck in chinese"
+;;
+8)
+echo "bad luck in japenese"
+;;
+16)
+echo "bad luck in Italian"
+;;
+*0
+;;
+esac
+((j++))
+done
