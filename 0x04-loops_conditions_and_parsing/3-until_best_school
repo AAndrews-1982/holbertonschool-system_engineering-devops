@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Script displays "Best School" 10 times using until
+j=0
+until [ $j -gt 9 ]
+do echo "Best School"
+((j++))
+done
