@@ -1,2 +1,2 @@
 #!/bin/ash
-echo "$PATH"
+echo "$PATH" | tr ":" "\n" | wc -1
