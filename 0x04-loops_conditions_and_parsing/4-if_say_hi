@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 #Script displaying "Best School" unless variable is equal to 9, prints "Hi"
 i=0
 while [ $i -lt 10 ]
