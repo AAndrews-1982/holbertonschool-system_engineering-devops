@@ -9,15 +9,15 @@ do
 echo $((j+1))
 case $j in
 3)
-echo "bad luck in chinese"
+echo "bad luck from China"
 ;;
 8)
-echo "bad luck in japenese"
+echo "bad luck from Japan"
 ;;
 16)
-echo "bad luck in Italian"
+echo "bad luck from Italy"
 ;;
-*0
+*)
 ;;
 esac
 ((j++))
