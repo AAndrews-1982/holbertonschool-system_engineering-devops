@@ -8,5 +8,5 @@ if [ $i -eq 8 ]
 then
 echo "Hi"
 fi
-i=$(( i + i ))
+i=$(( i + 1 ))
 done
