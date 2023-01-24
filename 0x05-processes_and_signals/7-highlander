@@ -2,4 +2,9 @@
 #Script displays To infinity and beyond indefinitely
 #Script with a sleep 2 in between iterations
 #Script says I am invincible!!! when recieving a SIGTERM signal
-
+trap "echo I am invincible!!!" SIGTERM
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
