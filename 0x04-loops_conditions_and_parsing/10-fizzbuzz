@@ -11,7 +11,7 @@ buzz=$((j%5))
 if [ "$fizz" = 0 ] && [ "$buzz" = 0 ]
 then
 echo "FizzBuzz"
-elif [ "$fizz = 0 ]
+elif [ "$fizz" = 0 ]
 then
 echo "Fizz"
 elif [ "$buzz" = 0 ]
