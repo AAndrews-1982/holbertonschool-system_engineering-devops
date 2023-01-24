@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script displays To infinity and beyond indefinitely
+#Script with a sleep 2 in between iterations
+#Script says I am invincible!!! when recieving a SIGTERM signal
+
