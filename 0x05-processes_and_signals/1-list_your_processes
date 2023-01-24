@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-ps -auxf | less
+#Script displaying all current processes.
+ps -auxf
